@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Login</title>
+  <!-- linking fontawesome -->
+  <script src="https://use.fontawesome.com/89281ccf9c.js"></script>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  <div class="center-text">
+    <h1 class="login">Welcome to MargolisMossNews Site</h1>
+    <!-- includes user icon -->
+    <i class="fa fa-user-circle fa-5x" id="user-icon" aria-hidden="true"></i><!--  from fontawesome.io -->
+    <h2 class="login" >Login</h2>
+    <!-- form that inputs the username for login, sends to login php page -->
+    <form class="login" name="input" method="post" action="login.php">
+      Username: <input type="text" name="username"/> <br>
+      Password: <input type="password" name="password"/>
+      <input type="submit" value="Log In"/>
+    </form>
+    <!-- link to register -->
+    <form id="register-but" action="registration.html">
+      <input type="submit" value="Create Account"/>
+    </form>
+    <form action="main.php" id = "mainb-but">
+      <input type="submit" value="Back to Main"/>
+    </form>
+  </div>
+</body>
+</html>

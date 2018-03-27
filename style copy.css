@@ -1,0 +1,62 @@
+/*styles the center text box*/
+.center-text{
+  display: block;
+  margin-top: 5.0em;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #fff;
+  border-width: medium;
+  border-style: solid;
+  height: 40em;
+  width: 50em;
+}
+/*sets backgroud color to maroon, font color to white*/
+body{
+  color: #fff;
+  background-color: #008fb3;
+  font-family: sans-serif;
+}
+
+/*positions the user icon at top of page*/
+#user-icon{
+  display: block;
+  text-align: center;
+  padding-top: 1em;
+  color: #fff;
+}
+
+.login, .users {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.files{
+  border-width: thin;
+  border-style: solid;
+  border-color: #fff;
+  padding: .4em;
+}
+
+#register-but{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  text-align: center;
+}
+
+#story-column{
+  padding: .4em;
+}
+
+form {
+  width: 4em;
+
+}
+#mainb-but{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+}
